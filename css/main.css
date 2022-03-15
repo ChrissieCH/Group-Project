@@ -1,0 +1,154 @@
+html, body {
+  width: auto;
+  height: auto;
+ }
+
+body {
+    background-color: #b1e9a3;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+  }
+
+  #logo{
+        float: left;
+        padding: 20px; 
+        width: 75px;
+        height: 300px;
+        object-fit: contain;
+     
+  }
+
+  #topnavbar {
+    float: right;
+    display: block;
+    padding: 8px;
+    background-color: #7FC8A9;
+    color: white;
+    font-family: tahoma
+  }
+
+  #topnavbar a:hover {
+    background-color: rgba(0, 0, 0, 0.349);
+  } 
+
+  .active{
+    background-color: blue;
+}
+
+  h1 {
+      color:#444941 ;
+    font-family: tahoma; 
+    text-align: center;
+    font-size: 75px;
+    font-style: italic
+  }
+
+  #intropic {
+      float: right;
+  }
+
+  p 
+  { color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    font-style: bold;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .recipelink {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-align: justify;
+  }
+
+
+   .recipelink a:hover {
+    background-color: #a1aa9b;
+   }
+
+   h2 {
+     background-color: #444941;
+     font-size: 30px;
+     color:white;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+  
+
+  
+  h3{ 
+    color: #444941;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+
+
+  #ingredients{
+    color: #444941;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+
+  h4{
+    color: #444941;
+    font-style:  bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+  }
+
+  main{
+    color: red;
+  }
+
+
+.contactbutton {
+  background-color: #7FC8A9;  
+  border:rgba(0, 0, 0, 0.349);
+  border-style:ridge;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  }
+
+
+#usefullinks {
+  color: #444941;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#usefullinks a:hover {
+  background-color: #a1aa9b;
+}
+
+#bottomnav {
+float: left;
+    padding: 20px; 
+    width: 150px;
+    height: 600px;
+    object-fit: contain;
+}
